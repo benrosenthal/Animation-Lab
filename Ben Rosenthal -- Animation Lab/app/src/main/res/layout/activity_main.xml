@@ -17,12 +17,23 @@
         android:hint="type in your wish"
         android:id="@+id/enter_wish_edittext"
         android:layout_marginTop="25dp"/>
-
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ADD A WISH"
-        android:id="@+id/add_a_wish_button"/>
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD A WISH"
+            android:id="@+id/add_a_wish_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE A WISH"
+            android:id="@+id/delete_a_wish_button"/>
+    </LinearLayout>
+
 
     <TextView
         android:layout_width="wrap_content"
